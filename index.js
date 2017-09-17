@@ -30,7 +30,7 @@ function prependKitten(name){
   return moreKittens
 }
 
-function removeLastKitten(){
+function removeLastKitten(name){
   var moreKittens.slice(-1)
   return moreKittens
 }
