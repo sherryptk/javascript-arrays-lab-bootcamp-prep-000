@@ -1,8 +1,10 @@
 const app = "I don't do much."
 
-function destructivelyRemoveFirstKitten(array){
-  array.shift()
-  return array
+var kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyRemoveFirstKitten(kittens){
+  kittens.shift()
+  return kittens
 }
 function destructivelyAppendKitten(name){
   array.push(name)
