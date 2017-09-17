@@ -12,6 +12,10 @@ function destructivelyAppendKitten(name){
   return kittens
 }
 
+destructivelyPrependKitten(name){
+  kittens.unshift(name)
+  return kittens
+}
 
 
 //pop() - removes from end, push() - add to end, shift() - remove from start, and unshift() - add to start
