@@ -30,8 +30,8 @@ function prependKitten(name){
   return moreKittens
 }
 
-function removeLastKitten(name){
-  var moreKittens.slice(-1)
+function removeLastKitten(){
+  var moreKittens=kittens.slice(-1)
   return moreKittens
 }
 // var cities = ["New York", "San Francisco"]
