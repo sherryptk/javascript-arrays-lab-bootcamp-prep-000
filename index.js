@@ -6,7 +6,7 @@ function destructivelyRemoveFirstKitten(array){
 }
 function destructivelyAppendKitten(name){
   array.push(name)
-  return array
+  return name
 }
 
 
