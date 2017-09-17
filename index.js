@@ -7,7 +7,7 @@ const app = "I don't do much."
 //   return kittens
 // }
 
-function destructivelyAppendKitten(kittens,name){
+function destructivelyAppendKitten(name, kittens){
   kittens.push(name)
   return kittens
 }
