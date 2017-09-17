@@ -1,12 +1,5 @@
 const app = "I don't do much."
 
-//var kittens = ["Milo", "Otis", "Garfield"]
-
-// function destructivelyRemoveFirstKitten(kittens){
-//   kittens.shift()
-//   return kittens
-// }
-
 function destructivelyAppendKitten(name){
   kittens.push(name)
   return kittens
@@ -19,6 +12,11 @@ function destructivelyPrependKitten(name){
 
 function destructivelyRemoveLastKitten(){
   kittens.pop()
+  return kittens
+}
+
+function destructivelyRemoveFirstKitten(){
+  kittens.shift()
   return kittens
 }
 //pop() - removes from end,  shift() - remove from start, and unshift() - add to start, push() - add to end,
