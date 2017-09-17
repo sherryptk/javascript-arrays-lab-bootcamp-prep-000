@@ -21,14 +21,14 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var moreKittens[name, ...kittens]
+  var moreKittens=[name, ...kittens]
   return moreKittens
 }
 
 // var cities = ["New York", "San Francisco"]
-//  
+//
 // ["Philadelphia", ...cities] // ["Philadelphia", "New York", "San Francisco"]
-//  
+//
 // cities // ["New York", "San Francisco"]
 
 //pop() - removes from end,  shift() - remove from start, and unshift() - add to start, push() - add to end,
